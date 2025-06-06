@@ -5,10 +5,10 @@ const path = require('path');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || 'Maro Bot-MD'}*  
    Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
-   YT : ${global.ytch}
+   by ${settings.botOwner || 'Maro H'}
+   YT : None currently (مفيش من الاخر)
 ╚═══════════════════╝
 
 *Available Commands:*
@@ -139,15 +139,6 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .instagram <link>
 ║ ➤ .facebook <link>
 ║ ➤ .tiktok <link>
-╚═══════════════════╝
-
-╔═══════════════════╗
-💻 *Github Commands:*
-║ ➤ .git
-║ ➤ .github
-║ ➤ .sc
-║ ➤ .script
-║ ➤ .repo
 ╚═══════════════════╝
 
 Feedback my bot for future updates (إن شاء الله)`;
