@@ -154,12 +154,8 @@ Feedback my bot for future updates (إن شاء الله)`;
                 caption: helpMessage,
                 contextInfo: {
                     forwardingScore: 1,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'Maro Bot MD by Mr Unique Hacker',
-                        serverMessageId: -1
-                    }
+                    isForwarded: false,
+                   
                 }
             });
         } else {
@@ -168,12 +164,8 @@ Feedback my bot for future updates (إن شاء الله)`;
                 text: helpMessage,
                 contextInfo: {
                     forwardingScore: 1,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD by Mr Unique Hacker',
-                        serverMessageId: -1
-                    } 
+                    isForwarded: false,
+                     
                 }
             });
         }
